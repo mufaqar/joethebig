@@ -9,7 +9,7 @@ import TeamOne from "../components/TeamOne";
 
 const AboutPage = () => {
     return (
-        <Layout pageTitle="About Us">
+        <Layout pageTitle="Joe The Big | About Us">
             <NavOne />
             <PageHeader title="About" />
             <AboutOne />

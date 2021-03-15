@@ -7,7 +7,7 @@ import Contact from "../components/Contact";
 
 const GalleryPage = () => {
     return (
-        <Layout pageTitle="Kipso | Contact">
+        <Layout pageTitle="Joe The Big | Contact">
             <NavOne />
             <PageHeader title="Contact" />
             <Contact />

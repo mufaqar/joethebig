@@ -7,7 +7,7 @@ import Courses from "../components/Courses";
 
 const CoursesPage = () => {
     return (
-        <Layout pageTitle="Kipso | Courses">
+        <Layout pageTitle="Joe The Big | Courses">
             <NavOne />
             <PageHeader title="Courses" />
             <Courses />
