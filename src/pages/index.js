@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 
 
 const HomePage = () => (
-  <Layout pageTitle="joethebig  - Ecomemrece">
+  <Layout pageTitle="Joe The Big  - Ecomemrece">
     <NavOne />   
     <Footer />
   </Layout>
