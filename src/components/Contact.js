@@ -38,9 +38,8 @@ const Contact = () => {
                 </div>
                 <h2 className="contact-info-one__title">Contact Info</h2>
                 <p className="contact-info-one__text">
-                  info@joethebig
-.com <br />
-                  444 888 0000 <br /> &nbsp;
+                  info@joethebig.com <br />
+                 123 456 789<br /> &nbsp;
                 </p>
               </div>
             </div>
