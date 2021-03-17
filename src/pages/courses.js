@@ -9,7 +9,7 @@ const CoursesPage = () => {
     return (
         <Layout pageTitle="Joe The Big | Courses">
             <NavOne />
-            <PageHeader title="Courses" />
+            <PageHeader title="Products" />
             <Courses />
             <Footer />
         </Layout>

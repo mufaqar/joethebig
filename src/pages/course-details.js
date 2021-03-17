@@ -9,8 +9,8 @@ const CoursesPage = () => {
     return (
         <Layout pageTitle="Joe The Big | Course Details">
             <NavOne />
-            <PageHeader title="Courses Details" />
-           {/* <CourseDetails /> */}
+            <PageHeader title="Product Details" />
+         
             <Footer />
         </Layout>
     );

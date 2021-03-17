@@ -1,142 +1,191 @@
 import React from "react";
 import { Link } from "gatsby";
-import course1 from "../assets/images/product-1.jpg";
+import course1 from "../assets/images/product-2.jpg";
+import course2 from "../assets/images/product-2.jpg";
+import course3 from "../assets/images/product-3.jpg";
+
 
 
 const Courses = () => {
   return (
-    <section className="course-one course-page">
+    <section className="product-one product-page">
       <div className="container">
         <div className="row">
           <div className="col-lg-4">
-            <div className="course-one__single">
-              <div className="course-one__image">
-                <img src={course1} alt="" />               
+            <div className="product__single">
+               <div className="product-one__image">
+                    <img src={course2} className="image_ol" alt="" /> 
+                    <div class="img_overlay">
+                    <div class="buytext">BUY</div>
+                </div>          
               </div>
-              <div className="course-one__content">
-                <h2 className="course-one__title">
-                  <Link to="/cl">
-                          Tahiti Palms Canty Shirt
-                        </Link>
-                </h2>
-                <div className="course-one__meta">                  
-                  <a href="/course-details">$18</a>
-                </div>
-               
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-4">
-            <div className="course-one__single">
-              <div className="course-one__image">
-                <img src={course1} alt="" />               
-              </div>
-              <div className="course-one__content">
-                <h2 className="course-one__title">
-                  <Link to="/course-details">
-                          Tahiti Palms Canty Shirt
-                        </Link>
-                </h2>
-                <div className="course-one__meta">                  
-                  <a href="/course-details">$18</a>
-                </div>
-               
+              <div className="product-one__content">
+                <h4 className="product_title">
+                      <Link to="">Tahiti Palms Canty Shirt </Link>
+                  </h4>
+                <h4 class="price"> 
+                     275 EUR
+                 </h4>               
               </div>
             </div>
           </div>
 
           <div className="col-lg-4">
-            <div className="course-one__single">
-              <div className="course-one__image">
-                <img src={course1} alt="" />               
+            <div className="product__single">
+               <div className="product-one__image">
+                    <img src={course2} className="image_ol" alt="" /> 
+                    <div class="img_overlay">
+                    <div class="buytext">BUY</div>
+                </div>          
               </div>
-              <div className="course-one__content">
-                <h2 className="course-one__title">
-                  <Link to="/course-details">
-                          Tahiti Palms Canty Shirt
-                        </Link>
-                </h2>
-                <div className="course-one__meta">                  
-                  <a href="/course-details">$18</a>
-                </div>
-               
-              </div>
-            </div>
-          </div>
-
-
-          <div className="col-lg-4">
-            <div className="course-one__single">
-              <div className="course-one__image">
-                <img src={course1} alt="" />               
-              </div>
-              <div className="course-one__content">
-                <h2 className="course-one__title">
-                  <Link to="/course-details">
-                          Tahiti Palms Canty Shirt
-                        </Link>
-                </h2>
-                <div className="course-one__meta">                  
-                  <a href="/course-details">$18</a>
-                </div>
-               
+              <div className="product-one__content">
+                <h4 className="product_title">
+                      <Link to="/course-details">Tahiti Palms Canty Shirt </Link>
+                  </h4>
+                <h4 class="price"> 
+                     275 EUR
+                 </h4>               
               </div>
             </div>
           </div>
 
           <div className="col-lg-4">
-            <div className="course-one__single">
-              <div className="course-one__image">
-                <img src={course1} alt="" />               
+            <div className="product__single">
+               <div className="product-one__image">
+                    <img src={course3} className="image_ol" alt="" /> 
+                    <div class="img_overlay">
+                    <div class="buytext">BUY</div>
+                </div>          
               </div>
-              <div className="course-one__content">
-                <h2 className="course-one__title">
-                  <Link to="/course-details">
-                          Tahiti Palms Canty Shirt
-                        </Link>
-                </h2>
-                <div className="course-one__meta">                  
-                  <a href="/course-details">$18</a>
-                </div>
-               
+              <div className="product-one__content">
+                <h4 className="product_title">
+                      <Link to="/course-details">Tahiti Palms Canty Shirt </Link>
+                  </h4>
+                <h4 class="price"> 
+                     275 EUR
+                 </h4>               
               </div>
             </div>
           </div>
 
           <div className="col-lg-4">
-            <div className="course-one__single">
-              <div className="course-one__image">
-                <img src={course1} alt="" />               
+            <div className="product__single">
+               <div className="product-one__image">
+                    <img src={course1} className="image_ol" alt="" /> 
+                    <div class="img_overlay">
+                    <div class="buytext">BUY</div>
+                </div>          
               </div>
-              <div className="course-one__content">
-                <h2 className="course-one__title">
-                  <Link to="/course-details">
-                          Tahiti Palms Canty Shirt
-                        </Link>
-                </h2>
-                <div className="course-one__meta">                  
-                  <a href="/course-details">$18</a>
-                </div>
-               
+              <div className="product-one__content">
+                <h4 className="product_title">
+                      <Link to="/course-details">Tahiti Palms Canty Shirt </Link>
+                  </h4>
+                <h4 class="price"> 
+                     275 EUR
+                 </h4>               
               </div>
             </div>
           </div>
+
+          <div className="col-lg-4">
+            <div className="product__single">
+               <div className="product-one__image">
+                    <img src={course1} className="image_ol" alt="" /> 
+                    <div class="img_overlay">
+                    <div class="buytext">BUY</div>
+                </div>          
+              </div>
+              <div className="product-one__content">
+                <h4 className="product_title">
+                      <Link to="/course-details">Tahiti Palms Canty Shirt </Link>
+                  </h4>
+                <h4 class="price"> 
+                     275 EUR
+                 </h4>               
+              </div>
+            </div>
+          </div>
+
+          <div className="col-lg-4">
+            <div className="product__single">
+               <div className="product-one__image">
+                    <img src={course1} className="image_ol" alt="" /> 
+                    <div class="img_overlay">
+                    <div class="buytext">BUY</div>
+                </div>          
+              </div>
+              <div className="product-one__content">
+                <h4 className="product_title">
+                      <Link to="/course-details">Tahiti Palms Canty Shirt </Link>
+                  </h4>
+                <h4 class="price"> 
+                     275 EUR
+                 </h4>               
+              </div>
+            </div>
+          </div>
+
+          <div className="col-lg-4">
+            <div className="product__single">
+               <div className="product-one__image">
+                    <img src={course1} className="image_ol" alt="" /> 
+                    <div class="img_overlay">
+                    <div class="buytext">BUY</div>
+                </div>          
+              </div>
+              <div className="product-one__content">
+                <h4 className="product_title">
+                      <Link to="/course-details">Tahiti Palms Canty Shirt </Link>
+                  </h4>
+                <h4 class="price"> 
+                     275 EUR
+                 </h4>               
+              </div>
+            </div>
+          </div>
+
+          <div className="col-lg-4">
+            <div className="product__single">
+               <div className="product-one__image">
+                    <img src={course1} className="image_ol" alt="" /> 
+                    <div class="img_overlay">
+                    <div class="buytext">BUY</div>
+                </div>          
+              </div>
+              <div className="product-one__content">
+                <h4 className="product_title">
+                      <Link to="/course-details">Tahiti Palms Canty Shirt </Link>
+                  </h4>
+                <h4 class="price"> 
+                     275 EUR
+                 </h4>               
+              </div>
+            </div>
+          </div>
+
+          <div className="col-lg-4">
+            <div className="product__single">
+               <div className="product-one__image">
+                    <img src={course1} className="image_ol" alt="" /> 
+                    <div class="img_overlay">
+                    <div class="buytext">BUY</div>
+                </div>          
+              </div>
+              <div className="product-one__content">
+                <h4 className="product_title">
+                      <Link to="/course-details">Tahiti Palms Canty Shirt </Link>
+                  </h4>
+                <h4 class="price"> 
+                     275 EUR
+                 </h4>               
+              </div>
+            </div>
+          </div>
+
+
+          
         </div>
-        <div className="post-pagination">
-          <a href="#none">
-            <i className="fa fa-angle-double-left"></i>
-          </a>
-          <a className="active" href="#none">
-            1
-          </a>
-          <a href="#none">2</a>
-          <a href="#none">3</a>
-          <a href="#none">4</a>
-          <a href="#none">
-            <i className="fa fa-angle-double-right"></i>
-          </a>
-        </div>
+    
       </div>
     </section>
   );
