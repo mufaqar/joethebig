@@ -67,16 +67,13 @@ class NavOne extends Component {
                      
                     </li>
                
-                <li>
-                  <a href="/courses" >Shop</a>
-                
-                </li>
+               
                 <li>
                   <Link to="/course-details">Product Detail</Link>
                  
                 </li>
                 <li>
-                  <Link to="/news">privacy policy</Link>
+                  <Link to="/privacy">privacy policy</Link>
                   
                 </li>
               

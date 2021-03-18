@@ -1,6 +1,6 @@
 import React from "react";
 
-const News = () => {
+const Privacy = () => {
   return (
     <section className="privacy-page">
       <div className="container">
@@ -52,4 +52,4 @@ To protect your personal information online, we use SLL encryption on all data t
   );
 };
 
-export default News;
+export default Privacy;

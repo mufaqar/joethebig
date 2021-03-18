@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "gatsby";
-import course1 from "../assets/images/product-2.jpg";
 import course2 from "../assets/images/product-2.jpg";
 import course3 from "../assets/images/product-3.jpg";
 

@@ -5,15 +5,16 @@ import NavOne from "../components/NavOne";
 
 import Footer from "../components/Footer";
 import Topbar from "../components/Topbar";
+import Courses from "../components/Courses";
 
 
 const HomePage = () => (
-  <Layout pageTitle="Joe The Big  - Ecomemrece">
-   
-   <Topbar />  
-    <NavOne />   
+  <Layout pageTitle="Joe The Big | Courses">
+    <Topbar /> 
+    <NavOne />
+    <Courses />
     <Footer />
-  </Layout>
+    </Layout>
 );
 
 export default HomePage;
