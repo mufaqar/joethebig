@@ -53,29 +53,22 @@ class NavOne extends Component {
             this.state.sticky ? "stricked-menu stricky-fixed" : ""
           }`}
         >
-          <div className="container clearfix">
-            <div className="logo-box clearfix">
-              <Link to="/" className="navbar-brand">
-              joethebig
-              </Link>
+          <div className="container-fluid clearfix">
             
-              <button className="menu-toggler">
-                <span className="kipso-icon-menu"></span>
-              </button>
-            </div>
+
+
+
+
             <div className="main-navigation">
               <ul className=" navigation-box">
-                <li className="current">
-                  <Link to="/">Home</Link>
-                
-                </li>
+               
                 <li>
                       <Link to="/about">About </Link>
                      
                     </li>
                
                 <li>
-                  <a href="/courses">Shop</a>
+                  <a href="/courses" className="current">Shop</a>
                 
                 </li>
                 <li>
@@ -86,10 +79,38 @@ class NavOne extends Component {
                   <Link to="/news">privacy policy</Link>
                   
                 </li>
-                <li>
-                  <Link to="/contact">Contact</Link>
-                </li>
+              
               </ul>
+            </div>
+
+            <div className="logo-box">
+              <Link to="/" className="navbar-brand">
+              LOGO
+              </Link>
+            
+              <button className="menu-toggler">
+                <span className="kipso-icon-menu"></span>
+              </button>
+            </div>
+
+
+
+            <div className="right-side-box">
+            <ul className=" navigation-box">
+               
+               <li>
+                     <Link to="#">Sign In </Link>
+                    
+                   </li>
+              
+               <li>
+                 <a href="#" className="current">Cart (0)</a>
+               
+               </li>
+              
+               
+             
+             </ul>
             </div>
             
           </div>

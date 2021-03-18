@@ -33,8 +33,10 @@
 /*
 * 1. common styles
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,400;1,500;1,700;1,900&display=swap');
 body {
-  font-family: 'Poppins';
+  font-family: 'Montserrat', sans-serif;
   color: #81868a;
   font-size: 16px;
   line-height: 34px;
@@ -66,6 +68,10 @@ a:visited {
 
 .thm-gray-bg {
   background-color: #f1f1f1;
+}
+
+.menu-toggler {
+  display: none;
 }
 
 @media (min-width: 1200px) {
@@ -306,39 +312,19 @@ a:visited {
 * 2. header styles
 */
 .topbar-one {
-  background-color: #022c46;
+  background-color: #000000;
+  line-height: 22px;
 }
-.topbar-one .container {
-  padding-top: 6.5px;
-  padding-bottom: 6.5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-}
-.topbar-one__right,
-.topbar-one__left {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-.topbar-one__right a,
-.topbar-one__left a {
+
+.topbar-center {
+  padding: 10px;
+  font-size: 12px;
+  line-height: 1.67;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
   color: #ffffff;
-  font-size: 13px;
-  font-weight: 600;
-  -webkit-transition: color 0.4s ease;
-  transition: color 0.4s ease;
-}
-.topbar-one__right a:hover,
-.topbar-one__left a:hover {
-  color: #f16101;
-}
-.topbar-one__right a + a,
-.topbar-one__left a + a {
-  margin-left: 25px;
 }
 
 .header-navigation {
@@ -3198,7 +3184,7 @@ a:visited {
 }
 
 .product-single .product__content {
-  padding: 20px 33px;
+  padding: 20px 0px;
   font-size: 13px;
   line-height: 1.54;
   letter-spacing: 0.02em;
@@ -3847,8 +3833,8 @@ a:visited {
 }
 
 .footer-widget {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 60px;
+  padding-bottom: 30px;
 }
 .footer-widget .list-unstyled {
   margin: 0;

@@ -5,14 +5,11 @@ class Topbar extends Component {
     return (
       <div className="topbar-one">
         <div className="container">
-          <div className="topbar-one__left">
-            <a href="#none">needhelp@kipso.com</a>
-            <a href="#none">444 888 0000</a>
+          <div className="topbar-center">
+            COMPLIMENTARY SHIPPING TO PAKISTAN ON ORDERS OVER RS22,620
+           
           </div>
-          <div className="topbar-one__right">
-            <a href="#none">Login</a>
-            <a href="#none">Register</a>
-          </div>
+          
         </div>
       </div>
     );

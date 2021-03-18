@@ -5,13 +5,16 @@ import PageHeader from "../components/PageHeader";
 import AboutOne from "../components/AboutOne";
 import Footer from "../components/Footer";
 import TeamOne from "../components/TeamOne";
+import Topbar from "../components/Topbar";
 
 
 const AboutPage = () => {
     return (
-        <Layout pageTitle="Joe The Big | About Us">
+        <Layout pageTitle="About Us | The Compnay">
+                 <Topbar />
             <NavOne />
-            <PageHeader title="About" />
+            <PageHeader title="About Us" />
+       
             <AboutOne />
             <TeamOne />         
             <Footer />

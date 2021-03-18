@@ -30,9 +30,11 @@ const CourseDetails = () => {
                 
                 </div>
 
+                <div class="product__submit">
+
 
                 <button type="submit" class="btn btn--black js-btn-product">Add to Cart</button>
-
+                </div>
                 <div class="product__content">
                 
                 <p >Free shipping on US orders over Rs. 18,500. All sale items are final sale.</p>
@@ -65,7 +67,9 @@ const CourseDetails = () => {
           
           
           
-           </div>   </div>
+           </div>   
+           
+           </div>
             
          
           </div>

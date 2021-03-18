@@ -7,14 +7,18 @@ const Footer = () => {
     <div>
       <footer className="site-footer">
         <div className="site-footer__upper">
-          <div className="container">
+          <div className="container-fluid">
             <div className="row">
             
-            <div className="col-xl-4 col-lg-6 col-sm-12">
-                <div className="footer-widget ">
-                  <h2 className="footer-widget__title">About joethebig</h2>
+            <div className="col-xl-6 col-lg-6 col-sm-12">
+                <div className="footer-widget">
+                  <h2 className="footer-widget__title">About Company</h2>
                   <p className="footer-widget__text">
-                  joethebig and joethebig Design are trademarks and/or registered trademarks of Harry's Inc. or its affiliates
+                  In August of 2009, Saturdays NYC opened on a quiet,<br/>
+                   cobblestoned street in SoHo, New York City. Since its<br/>
+                    establishment, Saturdays has grown from a small downtown<br/>
+                     shop into an international lifestyle brand synonymous with<br/>
+                      high-quality craftsmanship, a minimalist ethos, and classic style.
                   </p>
                   
                  
@@ -22,7 +26,7 @@ const Footer = () => {
               </div>
            
             
-             <div className="col-xl-4 col-lg-6 col-sm-12">
+             <div className="col-xl-3 col-lg-6 col-sm-12">
                 <div className="footer-widget footer-widget__link">
                   <h2 className="footer-widget__title">Explore</h2>
                   <div className="footer-widget__link-wrap">
@@ -41,39 +45,28 @@ const Footer = () => {
                       </li>
                     
                     </ul>
-                    <ul className="list-unstyled footer-widget__link-list">
-                      <li>
-                        <a href="#none">Help </a>
-                      </li>
-                      <li>
-                        <a href="#none">Contact</a>
-                      </li>
-                      <li>
-                        <a href="#none">Register Now</a>
-                      </li>
-                    </ul>
+                
                   </div>
                 </div>
               </div>
-              <div className="col-xl-4 col-lg-6 col-sm-12">
+              <div className="col-xl-3 col-lg-6 col-sm-12">
                 <div className="footer-widget footer-widget__contact">
                   <h2 className="footer-widget__title">Aout Store </h2>
-                  <div className="site-footer__social">
-              
+                  <div className="site-footer__social">           
 
-              <a href="#none">
-                <i className="fab fa-twitter"></i>
-              </a>
-              <a href="#none">
-                <i className="fab fa-facebook-square"></i>
-              </a>
-              <a href="#none">
-                <i className="fab fa-pinterest-p"></i>
-              </a>
-              <a href="#none">
-                <i className="fab fa-instagram"></i>
-              </a>
-            </div>
+                            <a href="#none">
+                              <i className="fab fa-twitter"></i>
+                            </a>
+                            <a href="#none">
+                              <i className="fab fa-facebook-square"></i>
+                            </a>
+                            <a href="#none">
+                              <i className="fab fa-pinterest-p"></i>
+                            </a>
+                            <a href="#none">
+                              <i className="fab fa-instagram"></i>
+                            </a>
+                  </div>
             
                 </div>
               </div>
