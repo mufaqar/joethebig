@@ -68,7 +68,7 @@ class NavOne extends Component {
                     </li>
                
                 <li>
-                  <a href="/courses" className="current">Shop</a>
+                  <a href="/courses" >Shop</a>
                 
                 </li>
                 <li>
