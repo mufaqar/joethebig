@@ -3129,6 +3129,17 @@ a:visited {
 
 /* Single Product Code */
 
+.section__head {
+  border-top: 1px solid #6f6f71;
+  padding-top: 8px;
+  margin-bottom: 30px;
+}
+.section__head h4 {
+  font-family: 'MillerBanner', 'Times New Roman', serif;
+  font-size: 13px;
+  letter-spacing: 0.015em;
+  color: #6f6f71;
+}
 .course-details {
   padding: 20px 0;
   background: #dedede;
