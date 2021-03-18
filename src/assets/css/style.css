@@ -4849,6 +4849,11 @@ a:visited {
 /*
 * 17. about styles
 */
+
+.aligncenter {
+  align-items: center;
+  margin-bottom: 50px;
+}
 .about-one {
   padding: 120px 0;
   position: relative;

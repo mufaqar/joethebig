@@ -6,37 +6,36 @@ const TeamOne = () => {
     <section className="aboutpage">
       <div className="container-fluid">
      
-        <div className="row">
+        <div className="row aligncenter">
           <div className="col-md-6 col-sm-12">
           <img src={team1} alt="" style={{width: "450px"}}  />
            
           </div>
          
-          <div className="col-md-6 col-sm-12 text ">
+          <div className="col-md-6 col-sm-12 align-middle ">
            <p className="">Growing up in the rolling Tuscan countryside among the olive trees, my surroundings have always been nature, craftsmen, the simple life and people with passion. It might seem to you that living in a village with 350 people could be boring or uninspiring. I am not a bright lights, big city kind of guy. Nature, the smells of the past, my childhood, all the stories surrounding me inspire me. Luckily my wife too has fallen in love with life here in the countryside.</p>
           </div>
         </div>
 
 
 
-        <div className="row">
+        <div className="row aligncenter">
          
          
         <div className="col-md-6 col-sm-12 text ">
           
           <p>How we work together? It is simple - we just do. It feels like the most natural thing in the world. We fit. It just flows. I couldn’t imagine working without Samina. She is a huge part of the success of the brand Andrea Brugi. We are always tweaking the design of our cutting boards. Our olivewood cutting boards are made from local 400-1000 year old Tuscan olive trees and have become a bit iconic of our trademark. The trees are protected and only felled when they no longer bear fruit. We use the same olive wood for our handmade spoons, plates, salt-cellars, etc. I like to keep it simple.
-
-I like the idea that something I make is something you use and need in your daily life. I love the fact that the more you use our pieces the more beautiful they get. Words to describe my work? – Resonance with nature, using what is there – again. Preserving the history of things, the past. I only do what the wood tells me to do. I never force a design on the wood. It is the wood that decidesthe shapes and the design, I just listen to it. Working with wood is so inspiring and each piece has to be treated with respect.</p>
+</p>
            </div>
 
-           <div className="col-md-6 col-sm-12">
+           <div className="col-md-6 col-sm-12 text-right">
           <img src={team1} alt="" style={{width: "450px"}}  />
            
           </div>
         </div>
 
 
-        <div className="row">
+        <div className="row aligncenter">
           <div className="col-md-6 col-sm-12">
           <img src={team1} alt="" style={{width: "450px"}}  />
            
@@ -53,7 +52,7 @@ I like the idea that something I make is something you use and need in your dail
 
 
         
-        <div className="row">
+        <div className="row aligncenter">
           
          
           <div className="col-md-12 quote ">
@@ -64,7 +63,7 @@ I like the idea that something I make is something you use and need in your dail
 
 
 
-        <div className="row">
+        <div className="row aligncenter">
           <div className="col-md-6 col-sm-12">
           <img src={team1} alt="" style={{width: "450px"}}  />
            
